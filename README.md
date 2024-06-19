@@ -1,16 +1,19 @@
 # Api de pagamento com  Nodejs
 
-Passo 1: Configuração do Ambiente
+## Configuração do Ambiente:
+```bash
 mkdir src
 cd src
 npm init -y
+```
 
-Passo 2: Instalação de Dependências
+## Instalação de Dependências :
+```bash
 npm install express body-parser mongoose dotenv
+```
 
-
-Passo 3: Testando a API no postman :
-
+## Testando a API no postman :
+```bash
 POST http://localhost:3000/pagamentos
 Content-Type: application/json
 
@@ -20,18 +23,8 @@ Content-Type: application/json
 }
 
 GET http://localhost:3000/pagamentos
+```
 
-Passo 4: Estrutura do Projeto
-src/
-├── controllers/
-│   └── pagamentoController.js
-├── models/
-│   └── pagamentoModel.js
-├── routes/
-│   └── pagamentoRoutes.js
-├── .env
-├── app.js
-└── package.json
 
-Considerações Finais
-Este é um exemplo básico de como configurar uma API de pagamento utilizando Node.js com arquitetura MVC. Você pode expandir este projeto adicionando mais funcionalidades, como autenticação, validação de dados, tratamento de erros mais robusto, entre outros. Certifique-se sempre de implementar boas práticas de segurança e manutenção de código ao desenvolver aplicações para produção.
+## Obs:
+Este é um exemplo básico de como configurar uma API de pagamento utilizando Node.js com arquitetura MVC. Com a possibilidade de  adicionar mais funcionalidades, como autenticação, validação de dados, tratamento de erros mais robusto, entre outros. 
